@@ -13,4 +13,39 @@ nav a{
 .section_head p span{
     font-size: 30px;
     font-weight: 700;
-    text-shadow:0px 4px 6px rgba(0, 0, 0, 0.25);}
+    text-shadow:0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+/* Product section*/
+.product_section .item img{
+    width :100%;
+    height : 261px;
+
+    
+}
+.product_section .product_name p {
+    font-size:20px;
+    display: block;
+    text-align: start;
+}
+.products p :hover{
+    
+}
+.product_section .product_data .price {
+    color :#459647 ;
+    font-weight: bold;
+}
+.products {
+  border-radius: 15px;
+  transition: 0.3s;
+  background: #fff;
+}
+
+.products:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+/* footer*/
+footer{background-color: #349301;
+color : #f1f1f1;
+}
